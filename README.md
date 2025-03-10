@@ -67,13 +67,16 @@ scanf("%c", &you);
 
 result = game(you, computer);
 
-if (result == -1) {
+if (result == -1)
+{
 printf("Game Draw!\n");
 }
-else if (result == 1) {
+else if (result == 1)
+{
 printf("Wow! You have won the game!\n");
 }
-else {
+else
+{
 printf("Oh! You have lost the game!\n");
 }
 printf("YOu choose : %c and Computer choose : %c\n",you, computer);
